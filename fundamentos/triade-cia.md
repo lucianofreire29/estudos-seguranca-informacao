@@ -32,11 +32,21 @@ Também pode utilizar autenticação multifator, armazenamento seguro de senhas 
 
 ### Definição
 
+Integridade é a garantia de que os dados permaneçam corretos, completos e consistentes. As informações podem ser atualizadas, mas somente de maneira autorizada e controlada, sem alterações acidentais ou maliciosas.
+
 ### Exemplo
+
+Um prontuário médico deve armazenar corretamente as informações de saúde do paciente. Caso um registro importante, como a informação de que o paciente possui diabetes, seja removido ou modificado indevidamente, uma equipe médica poderá tomar decisões utilizando informações incorretas, causando riscos ao paciente.
 
 ### Ameaça
 
+A integridade pode ser ameaçada por ações externas ou internas. Um invasor pode modificar informações após comprometer o sistema, mas também pode ocorrer um erro de preenchimento, uma falha da aplicação ou a concessão incorreta de permissão para um usuário.
+
 ### Medida de proteção
+
+O sistema deve utilizar controles de acesso para permitir alterações somente por usuários autorizados. Também deve validar os dados inseridos e manter logs de auditoria que registrem quem realizou cada modificação e quando ela ocorreu.
+
+Hashes e assinaturas digitais podem ajudar a verificar alterações e autenticidade em situações adequadas. Backups também devem ser mantidos para permitir a recuperação de informações após erros ou incidentes.
 
 ## Disponibilidade
 
