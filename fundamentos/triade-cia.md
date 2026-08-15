@@ -52,11 +52,23 @@ Hashes e assinaturas digitais podem ajudar a verificar alterações e autenticid
 
 ### Definição
 
+Disponibilidade é a garantia de que sistemas e dados estejam acessíveis aos usuários autorizados quando forem necessários. Como não é possível impedir todas as interrupções, a organização deve reduzir o tempo de indisponibilidade e estar preparada para recuperar os serviços.
+
 ### Exemplo
+
+Se um sistema de pagamentos ficar indisponível durante duas horas, a empresa responsável poderá sofrer perdas financeiras, reclamações e danos à sua reputação. Clientes, lojas e parceiros que dependem do serviço também poderão ser prejudicados.
 
 ### Ameaça
 
+A disponibilidade pode ser afetada por ataques DDoS, aumento inesperado de usuários, falhas de hardware, erros de configuração, interrupções de energia ou problemas de rede.
+
+A falta de capacidade ou a existência de apenas um servidor também pode criar um ponto único de falha.
+
 ### Medida de proteção
+
+A organização deve monitorar continuamente o serviço para identificar falhas, sobrecargas e comportamentos anormais. A infraestrutura precisa ter capacidade adequada, proteção contra DDoS e redundância para evitar que a falha de um único servidor interrompa todo o sistema.
+
+Servidores secundários podem ser configurados com mecanismos de failover para assumir o serviço quando necessário. Também devem existir fontes alternativas de energia, manutenção preventiva, atualizações, backups testados e um plano de recuperação de desastres.
 
 ## Relação entre os três pilares
 
