@@ -72,4 +72,26 @@ Servidores secundários podem ser configurados com mecanismos de failover para a
 
 ## Relação entre os três pilares
 
+Confidencialidade, integridade e disponibilidade formam uma das bases da Segurança da Informação e precisam funcionar em conjunto. Quando um dos pilares é ignorado, podem surgir riscos para a organização e para as pessoas que utilizam seus serviços.
+
+Por exemplo, uma empresa pode manter seus dados disponíveis e sem alterações indevidas, mas, se não proteger a confidencialidade, essas informações poderão ser acessadas ou divulgadas para pessoas não autorizadas.
+
+Em um prontuário médico, a confidencialidade busca impedir que os dados do paciente sejam acessados ou divulgados por pessoas não autorizadas, preservando o sigilo das informações.
+
+A integridade garante que os registros permaneçam corretos e completos. Alterações legítimas podem ser feitas por profissionais autorizados, mas devem possuir validações e registros de auditoria que permitam identificar quem realizou cada modificação.
+
+A disponibilidade permite que profissionais autorizados acessem o prontuário quando necessário. Antes de uma cirurgia, por exemplo, a equipe médica pode precisar consultar condições de saúde, alergias e medicamentos do paciente para tomar decisões e reduzir riscos durante o procedimento.
+
+Assim, o prontuário precisa ser confidencial, íntegro e disponível ao mesmo tempo.
+
 ## Aprendizados
+
+- Meu entendimento anterior era próximo do atual, mas eu ainda não compreendia a dimensão da importância dos três pilares funcionando em conjunto.
+
+- A confidencialidade foi o pilar que mais chamou minha atenção, principalmente pelos controles de prevenção e pelas diferentes ameaças que podem causar exposição de dados.
+
+- Aprendi que backup e redundância possuem funções diferentes. O backup mantém cópias que devem ser testadas para permitir a recuperação dos dados. A redundância utiliza recursos alternativos, como um segundo servidor preparado para assumir o serviço caso o servidor principal fique indisponível.
+
+- Aprendi que o hash funciona como uma impressão digital do conteúdo. Quando o dado é modificado, o hash também muda, permitindo detectar uma alteração. Para identificar quem realizou a mudança e quando ela ocorreu, são necessários logs de auditoria.
+
+- O controle de acesso participa de mais de um pilar. Ele protege a confidencialidade ao limitar quem pode visualizar os dados e protege a integridade ao limitar quem pode modificá-los. Uma configuração incorreta também pode prejudicar a disponibilidade ao impedir o acesso de usuários autorizados.
